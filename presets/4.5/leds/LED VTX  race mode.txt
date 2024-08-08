@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: LEDS
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: leds, race, vtx, colour change, sugarK, spec, spec racing, tinytrainer
+#$ KEYWORDS: leds, race, vtx, colour change, spec, spec racing
 #$ AUTHOR: sugarK
 
 #$ DESCRIPTION: Sets LED settings to change colours when VTX channel is changed.

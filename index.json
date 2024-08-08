@@ -134,35 +134,25 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.3",
       "4.4",
       "4.5"
     ],
     "category": [
       "FILTERS",
       "LEDS",
-      "MODES",
       "OSD",
       "RATES",
-      "RC_LINK",
       "TUNE",
       "VTX"
     ],
     "author": [
       "Betaflight",
-      "Chris Rosser",
+      "James Rodgers",
       "JRo",
       "sugarK"
     ],
     "keywords": [
-      "actual",
-      "adjustments",
-      "aos",
-      "aux",
       "basic",
-      "chris",
-      "cinematic",
-      "clear",
       "colour change",
       "default",
       "defaults",
@@ -170,224 +160,25 @@
       "divimath",
       "filter",
       "filters",
-      "freestyle",
       "HD",
       "HDOSD",
       "hdzero",
       "leds",
-      "mode",
-      "modes",
-      "MSP VTX",
       "OSD",
       "pid",
       "race",
-      "race v1",
-      "race v2",
       "racing",
       "rates",
-      "RC",
-      "rc link",
-      "rc_link",
-      "rc_smoothing",
       "reset",
-      "rosser",
-      "Rx",
       "SA 2.1",
-      "smoothing",
       "spec",
       "spec racing",
-      "sugarK",
-      "switch",
-      "tinytrainer",
       "tune",
-      "tx5m.1",
       "vtx",
-      "vtx table",
-      "vtxtable",
-      "whoop",
-      "whoop lite",
-      "youtube"
+      "vtx table"
     ]
   },
   "presets": [
-    {
-      "fullPath": "presets/4.3/filters/defaults.txt",
-      "hash": "94dd6e400f67d5bde88bf5a6952c83255db887da83dcc9b247a04ffac43f9cd2",
-      "title": "Default 4.3 Filter settings",
-      "firmware_version": [
-        "4.3",
-        "4.4"
-      ],
-      "category": "FILTERS",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "filter",
-        "filters",
-        "reset"
-      ],
-      "author": "Betaflight",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.3/modes/defaults.txt",
-      "hash": "16a19e27a46efcd9f86d56f17e8fe82356921399cc0c5502e257e33ef8c321c3",
-      "title": "Default 4.3 Modes and Adjustment settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "MODES",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "mode",
-        "modes",
-        "adjustments",
-        "aux",
-        "switch"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/defaults.txt",
-      "hash": "36eb8ae097d0362030b297477c971280aad5562ac512a3f7ffa91949ed56db82",
-      "title": "Default 4.3 OSD settings",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "OSD"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/rates/defaults.txt",
-      "hash": "b5ca502f48325e26d254127b4bc431415d127092910ac6053b00087ef5000ade",
-      "title": "Default rates",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "rates",
-        "actual"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/rc_link/defaults.txt",
-      "hash": "4b040f24c3f3ead0edae874314c02f1ad3030176876c3089c8c089f5e361eb41",
-      "title": "Reset RC related settings",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "RC_LINK",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "Rx",
-        "RC",
-        "reset",
-        "rc link",
-        "rc_link",
-        "smoothing",
-        "rc_smoothing"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/tune/defaults.txt",
-      "hash": "78f827d0a9c615a3be454362b7bfe9751ddd981ed23cd07c0c1f79c4415dace9",
-      "title": "TUNE defaults",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "TUNE",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "tune",
-        "pid",
-        "basic",
-        "default"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/vtx/defaults.txt",
-      "hash": "d8bb4a7a15e3059ecd843607204ba9d1833c989044a175fe357d94d99417abb8",
-      "title": "Default 4.3 VTX settings",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "VTX",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx"
-      ],
-      "author": "Betaflight",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.3/vtx/defaults_vtx_tables.txt",
-      "hash": "77b535aa6e95af50997a23c1c31db536677a83ccdfdf76e724d3522e90ac6fbf",
-      "title": "Default 4.3 VTX table settings",
-      "firmware_version": [
-        "4.3",
-        "4.4",
-        "4.5"
-      ],
-      "category": "VTX",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "clear",
-        "vtx",
-        "vtxtable"
-      ],
-      "author": "Betaflight",
-      "priority": 1000000
-    },
-    {
-      "fullPath": "presets/4.4/osd/defaults.txt",
-      "hash": "d594f4691e29d05efc4b37995b2f218fbe31f930157c3499755753214fa87254",
-      "title": "Default 4.4 OSD settings",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "OSD",
-      "status": "OFFICIAL",
-      "keywords": [
-        "defaults",
-        "reset",
-        "OSD"
-      ],
-      "author": "Betaflight",
-      "priority": 0
-    },
     {
       "fullPath": "presets/4.5/filters/defaults.txt",
       "hash": "618e82175f3f63abfcbdd5315e2c17d915f608ac42af22aa1256470f3d2ea5fe",
@@ -426,7 +217,7 @@
     },
     {
       "fullPath": "presets/4.5/leds/LED VTX  race mode.txt",
-      "hash": "9f7ff587ab9bb60c8902dfdd14a4b3477cf3d3605a3eccdc771ed8bfd4a1ebee",
+      "hash": "f6d9c6be2c179b23376d835d5b6979176eccf6b77de47edcc85fb88f53d7b48b",
       "title": "RACE mode LED settings",
       "firmware_version": [
         "4.5"
@@ -438,17 +229,15 @@
         "race",
         "vtx",
         "colour change",
-        "sugarK",
         "spec",
-        "spec racing",
-        "tinytrainer"
+        "spec racing"
       ],
       "author": "sugarK",
       "priority": 0
     },
     {
       "fullPath": "presets/4.5/osd/JRo_osd.txt",
-      "hash": "944559caad703a817d8742c8457ed50aac7bc826e180b274c98f0864861af180",
+      "hash": "1517990f2231b1f8fef6f48594cbfe7177fd9127bf378905f286bb08af0a41ac",
       "title": "JRo HDzero OSD",
       "firmware_version": [
         "4.4",
@@ -461,36 +250,49 @@
         "HD",
         "HDOSD",
         "OSD",
-        "sugarK",
         "racing"
       ],
       "author": "JRo",
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/rates/AOS_rates.txt",
-      "hash": "bcbe2997c5c9d9b648cf4bac0ff7f5abe360c5dbbe1da607a567912398587219",
-      "title": "AOS Rates",
+      "fullPath": "presets/4.5/rates/JRo_rates.txt",
+      "hash": "7c5db37770dca4ddde61fac03a2d33f070a0ce4e7ac44ed56897ee5b059124e4",
+      "title": "JRo Rates",
       "firmware_version": [
-        "4.3",
-        "4.4",
         "4.5"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
       "keywords": [
-        "youtube",
-        "aos",
-        "freestyle",
-        "cinematic",
-        "chris",
-        "rosser"
+        "race",
+        "rates"
       ],
-      "author": "Chris Rosser",
+      "author": "James Rodgers",
       "priority": 10000
     },
     {
-      "fullPath": "presets/4.5/tune/defaults.txt",
+      "fullPath": "presets/4.5/tune/Odin_Emax_defaults.txt",
+      "hash": "89258af2c49ea233f4c9949e68ebe12f492691cf66e1804f2d66f1ed2a143661",
+      "title": "JRo Odin Emax 4.5 tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "tune",
+        "pid",
+        "basic",
+        "default"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/tune/Odin_F60_defaults.txt",
       "hash": "40d749b64f98141dea03e11b77976f0907a7e3b912c2e52c7395715eb570dfdd",
       "title": "Betaflight 4.5 TUNE defaults",
       "firmware_version": [
@@ -511,8 +313,8 @@
     },
     {
       "fullPath": "presets/4.5/vtx/HDZero.txt",
-      "hash": "9050972b8402eddb537077960adba66b448d73d040a9c52e4b1b9867fba234b9",
-      "title": "HDZero VTXs",
+      "hash": "1c64bb50d588e65a662597f8adb0533a7752191346176696725537db431c3121",
+      "title": "JRo HDZero VTX",
       "firmware_version": [
         "4.5"
       ],
@@ -524,17 +326,9 @@
         "HDzero",
         "divimath",
         "SA 2.1",
-        "digital",
-        "whoop",
-        "whoop lite",
-        "race v1",
-        "race v2",
-        "freestyle",
-        "tx5m.1",
-        "MSP VTX"
+        "digital"
       ],
-      "author": "sugarK",
-      "force_options_review": true,
+      "author": "JRo",
       "priority": 1000000
     }
   ]
