@@ -1,5 +1,6 @@
 #$ TITLE: JRo OSD
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: JRo, OSD, HDZero, DisplayPort, HD
@@ -9,8 +10,11 @@
 
 #$ INCLUDE: presets/2025.12/osd/defaults.txt
 
+# -- HDZero DisplayPort canvas --
 set osd_canvas_width = 50
 set osd_canvas_height = 18
+
+# -- Visible OSD elements --
 set osd_rssi_pos = 3150
 set osd_link_quality_pos = 3116
 set osd_tim_1_pos = 3628

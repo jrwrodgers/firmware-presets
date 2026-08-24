@@ -1,5 +1,6 @@
 #$ TITLE: JRo Dash PID Tune
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: JRo, Dash, pid, pidsum, feedforward
@@ -8,6 +9,9 @@
 #$ DESCRIPTION: Does not change other PID values and does not reset the rest of the tune.
 #$ DESCRIPTION: If you want F terms recalculated from the slider, click Simplified Tuning Apply in Configurator after applying this preset.
 
+# -- PIDsum limits: max on roll/pitch and yaw --
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
+
+# -- Feedforward slider 1.1 (does not rewrite other PID values) --
 set simplified_feedforward_gain = 110

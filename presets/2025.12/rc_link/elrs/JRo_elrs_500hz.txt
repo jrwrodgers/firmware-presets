@@ -1,5 +1,6 @@
 #$ TITLE: JRo ELRS 500Hz
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: RC_LINK
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: JRo, ELRS, express, 500Hz, rc, rx, link, smoothing
@@ -15,9 +16,11 @@
 
 #$ INCLUDE: presets/2025.12/rc_link/defaults.txt
 
+# -- ELRS receiver protocol (CRSF over serial) --
 feature RX_SERIAL
 set serialrx_provider = CRSF
 
+# -- 500Hz feedforward defaults if no flight-style option is selected --
 set feedforward_averaging = 2_POINT
 set feedforward_jitter_factor = 5
 

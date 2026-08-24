@@ -1,5 +1,6 @@
 #$ TITLE: JRo Rates
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: JRo, rates, Dash, throttle limit
@@ -10,6 +11,7 @@
 
 #$ INCLUDE: presets/2025.12/rates/defaults.txt
 
+# -- Stick rates (applied to the currently selected rate profile) --
 set rateprofile_name = Rate 1
 set roll_rc_rate = 14
 set pitch_rc_rate = 13
@@ -20,8 +22,11 @@ set yaw_expo = 32
 set roll_srate = 55
 set pitch_srate = 44
 set yaw_srate = 27
+
+# -- Throttle limit --
 set throttle_limit_type = SCALE
 set throttle_limit_percent = 80
 
+# -- Names shown on OSD --
 set craft_name = Dash
 set pilot_name = JRo

@@ -1,5 +1,6 @@
 #$ TITLE: JRo Dash Filters
 #$ FIRMWARE_VERSION: 2025.12
+#$ FIRMWARE_VERSION: 2026.6
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: JRo, Dash, filter, filters, RPM, 3 blade, gyro LPF off
@@ -11,16 +12,16 @@
 #$ INCLUDE_WARNING: misc/warnings/en/rpm_filters.txt
 #$ INCLUDE: presets/4.5/filters/defaults.txt
 
-# -- Gyro lowpass filters off --
+# -- Gyro lowpass filters off (static and dynamic LPF1/LPF2) --
 set gyro_lpf1_dyn_min_hz = 0
 set gyro_lpf1_static_hz = 0
 set gyro_lpf2_static_hz = 0
 set simplified_gyro_filter_multiplier = 200
 
-# -- Gyro Dynamic Notches --
+# -- Gyro dynamic notches: single high-Q notch --
 set dyn_notch_count = 1
 set dyn_notch_q = 500
 
-# -- RPM filtering --
+# -- RPM filtering for 3-blade props (2nd harmonic 20%, 3rd 80%) --
 set dshot_bidir = ON
 set rpm_filter_weights = 100,20,80
