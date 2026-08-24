@@ -1,0 +1,22 @@
+#$ TITLE: JRo OSD
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: OSD
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: JRo, OSD, HDZero, DisplayPort, HD
+#$ AUTHOR: JRo
+#$ DESCRIPTION: JRo HDZero/DisplayPort OSD layout (canvas 50x18).
+#$ DESCRIPTION: Select VTX (MSP + Displayport) on the UART connected to your HDZero VTX.
+
+#$ INCLUDE: presets/2025.12/osd/defaults.txt
+
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set osd_rssi_pos = 3150
+set osd_link_quality_pos = 3116
+set osd_tim_1_pos = 3628
+set osd_vtx_channel_pos = 2592
+set osd_mah_drawn_pos = 2080
+set osd_pilot_name_pos = 2560
+set osd_warnings_pos = 14836
+set osd_avg_cell_voltage_pos = 2112
+set osd_rate_profile_name_pos = 558

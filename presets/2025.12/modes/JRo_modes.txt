@@ -1,0 +1,38 @@
+#$ TITLE: JRo Modes
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: JRo, modes, aux, switches, vtx, power
+#$ AUTHOR: JRo
+#$ DESCRIPTION: JRo mode switches and VTX power change switch.
+#$ DESCRIPTION: AUX1 high: ARM
+#$ DESCRIPTION: AUX3 mid: ANGLE
+#$ DESCRIPTION: AUX2 high: BEEPER and FLIP OVER AFTER CRASH (turtle)
+#$ DESCRIPTION: AUX4 mid and high: BLACKBOX
+#$ DESCRIPTION: AUX5 VTX power: low 25mW (power 1), mid 25mW (power 1), high power 3
+#$ DESCRIPTION: Uses your existing VTX table power levels. Does not install a VTX table.
+
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+# mode switches
+aux 0 0 0 1725 2100 0 0
+aux 1 1 2 1300 1700 0 0
+aux 2 13 1 1750 2100 0 0
+aux 3 26 3 1300 2100 0 0
+aux 4 35 1 1725 2100 0 0
+
+# reset VTX channel power ranges, then set AUX5 power switch
+vtx 0 0 0 0 0 900 900
+vtx 1 0 0 0 0 900 900
+vtx 2 0 0 0 0 900 900
+vtx 3 0 0 0 0 900 900
+vtx 4 0 0 0 0 900 900
+vtx 5 0 0 0 0 900 900
+vtx 6 0 0 0 0 900 900
+vtx 7 0 0 0 0 900 900
+vtx 8 0 0 0 0 900 900
+vtx 9 0 0 0 0 900 900
+
+vtx 0 4 0 0 1 900 1200
+vtx 1 4 0 0 1 1300 1700
+vtx 2 4 0 0 3 1800 2100
