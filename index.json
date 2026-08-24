@@ -191,6 +191,7 @@
       "jawz101",
       "JazzMutant",
       "Joshua Bardwell",
+      "JRo",
       "Justice - Gary Kent",
       "Jye Smith",
       "KMfpv",
@@ -251,6 +252,7 @@
       "2ms",
       "2S",
       "3",
+      "3 blade",
       "3 inch",
       "3.5",
       "3.5in",
@@ -367,6 +369,7 @@
       "custom commands",
       "darwin",
       "darwinfpv",
+      "Dash",
       "davide",
       "davide fpv",
       "DDC",
@@ -380,7 +383,7 @@
       "din",
       "dindrones",
       "disable",
-      "displayport",
+      "DisplayPort",
       "divimath",
       "DJI",
       "dominator",
@@ -395,6 +398,7 @@
       "Extreme",
       "factory",
       "fader fpv",
+      "feedforward",
       "feisar",
       "fictive flame",
       "filter",
@@ -427,6 +431,7 @@
       "GPS",
       "GPS_Rescue",
       "GTB339",
+      "gyro LPF off",
       "gyroflow",
       "HD",
       "HD video",
@@ -447,6 +452,7 @@
       "IRC Tramp",
       "JazzMutant",
       "jhemcu",
+      "JRo",
       "juicy",
       "justice",
       "JWebb",
@@ -514,7 +520,9 @@
       "partial",
       "Passthrough",
       "pid",
+      "pidsum",
       "PIDtoolbox",
+      "power",
       "pro32",
       "profile",
       "Protos",
@@ -541,7 +549,7 @@
       "reset",
       "reset statistics",
       "rosser",
-      "rpm",
+      "RPM",
       "rubberquads",
       "rush",
       "rush tank",
@@ -589,6 +597,7 @@
       "Supafly",
       "SupaflyFPV",
       "switch",
+      "switches",
       "SWPR",
       "T3",
       "tank solo",
@@ -599,6 +608,7 @@
       "Team Black Sheep",
       "Texas",
       "thicc",
+      "throttle limit",
       "tiny",
       "tiny tank",
       "TinyApe",
@@ -1045,6 +1055,47 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/2025.12/filters/JRo_Dash_filters.txt",
+      "hash": "538399f4eb45a9d25b6d6f7cc77f0fd782d749f3963b48869f0157eb16c376db",
+      "title": "JRo Dash Filters",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "JRo",
+        "Dash",
+        "filter",
+        "filters",
+        "RPM",
+        "3 blade",
+        "gyro LPF off"
+      ],
+      "author": "JRo",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/2025.12/modes/JRo_modes.txt",
+      "hash": "faffe76bbb2fec3fd3d3085b66039949ac5ca0bad32d63a4b0290fa26e92171c",
+      "title": "JRo Modes",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "JRo",
+        "modes",
+        "aux",
+        "switches",
+        "vtx",
+        "power"
+      ],
+      "author": "JRo",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/osd/defaults.txt",
       "hash": "82aecb211c6ed2fc0d6bcbefd59c2535b324c34f73c1c2649cdb821adaf2b63f",
       "title": "Default 2025.12 OSD settings",
@@ -1098,6 +1149,25 @@
         "Racing"
       ],
       "author": "JazzMutant",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/JRo_osd.txt",
+      "hash": "e35a2d9b8afa524d42010cf99d7b6ec78905f1aeb6a17b2e74aa32f6581a9804",
+      "title": "JRo OSD",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "JRo",
+        "OSD",
+        "HDZero",
+        "DisplayPort",
+        "HD"
+      ],
+      "author": "JRo",
       "priority": 0
     },
     {
@@ -1256,6 +1326,24 @@
         "fictive flame"
       ],
       "author": "Nicholas Young (Fader FPV)",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/2025.12/rates/JRo_rates.txt",
+      "hash": "9222aa27fe7c216ab6487ad09c425863b358d7190ffe450b2a8ca7970c3606b9",
+      "title": "JRo Rates",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "JRo",
+        "rates",
+        "Dash",
+        "throttle limit"
+      ],
+      "author": "JRo",
       "priority": 10000
     },
     {
@@ -1426,6 +1514,29 @@
         "smoothing"
       ],
       "author": "ctzsnooze, SupaflyFPV",
+      "force_options_review": true,
+      "priority": 10000000000
+    },
+    {
+      "fullPath": "presets/2025.12/rc_link/elrs/JRo_elrs_500hz.txt",
+      "hash": "ae1f6563e3f69e8e6f721c74ed870cb07eba12585a38fbd7ead1a1f49753bdc0",
+      "title": "JRo ELRS 500Hz",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "RC_LINK",
+      "status": "COMMUNITY",
+      "keywords": [
+        "JRo",
+        "ELRS",
+        "express",
+        "500Hz",
+        "rc",
+        "rx",
+        "link",
+        "smoothing"
+      ],
+      "author": "JRo",
       "force_options_review": true,
       "priority": 10000000000
     },
@@ -2692,6 +2803,25 @@
       ],
       "author": "Funkolius",
       "force_options_review": false,
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/JRo_Dash_pid_tune.txt",
+      "hash": "279daa01e48101cbc7807b48edb4276cbb93f0de0232edfa5f7fc158efaca911",
+      "title": "JRo Dash PID Tune",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "JRo",
+        "Dash",
+        "pid",
+        "pidsum",
+        "feedforward"
+      ],
+      "author": "JRo",
       "priority": 1000000000000
     },
     {
